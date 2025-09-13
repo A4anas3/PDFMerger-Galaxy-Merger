@@ -24,7 +24,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://pdf-merger-galaxy-merger.vercel.app/")
 public class PdfMerger {
 
     private static final String MAX_FILE_SIZE = "100MB";
