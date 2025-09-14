@@ -72,7 +72,7 @@ function App() {
         });
       }, 500);
 
-      const response = await fetch("http://localhost:8888/api/merge", {
+      const response = await fetch("https://pdf-backend-4neb.onrender.com/api/merge", {
         method: "POST",
         body: formData,
       });
