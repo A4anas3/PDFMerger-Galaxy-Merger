@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>PDFMerger</artifactId>
+	<artifactId>PDFMerger-Backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>PDFMerger</name>
 	<description>Demo project for Spring Boot</description>
