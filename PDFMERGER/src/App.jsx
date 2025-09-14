@@ -291,7 +291,7 @@ function App() {
 
       <footer className="app-footer">
         <div className="footer-content">
-          <p className="support-text">Support Us</p>
+          <p className="support-text">Support Me On</p>
           <div className="footer-social-icons">
             <SocialIcon
               url="https://github.com/A4anas3"
