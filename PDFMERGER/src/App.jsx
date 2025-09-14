@@ -64,13 +64,13 @@ function App() {
     try {
       const interval = setInterval(() => {
         setMergeProgress((prev) => {
-          if (prev >= 100) {
+          if (prev >= 95) {
             clearInterval(interval);
-            return 100;
+            return 95;
           }
-          return prev + 10;
+          return prev + 5;
         });
-      }, 500);
+      }, 1000);
 
       const response = await fetch("https://pdf-backend-4neb.onrender.com/api/merge", {
         method: "POST",
@@ -78,7 +78,7 @@ function App() {
       });
 
       clearInterval(interval);
-      setMergeProgress(100);
+      setMergeProgress(95);
 
       if (response.ok) {
         const blob = await response.blob();
